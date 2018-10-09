@@ -3,11 +3,11 @@ package org.activiti.cloud.examples.connectors;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.activiti.cloud.api.process.model.IntegrationRequest;
+import org.activiti.cloud.api.process.model.IntegrationResult;
 import org.activiti.cloud.connectors.starter.channels.IntegrationResultSender;
 import org.activiti.cloud.connectors.starter.configuration.ConnectorProperties;
 import org.activiti.cloud.connectors.starter.model.IntegrationResultBuilder;
-import org.activiti.runtime.api.model.IntegrationRequest;
-import org.activiti.runtime.api.model.IntegrationResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

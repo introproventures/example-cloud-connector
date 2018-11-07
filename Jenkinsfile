@@ -135,7 +135,7 @@ spec:
           branch "develop"
         }
         environment {
-	        PROMOTE_HELM_CHART_URL = "https://storage.googleapis.com/$CHARTMUSEUM_GS_BUCKET"
+	        PROMOTE_HELM_REPO_URL = "https://storage.googleapis.com/$CHARTMUSEUM_GS_BUCKET"
         }
 
         steps {

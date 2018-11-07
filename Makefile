@@ -45,7 +45,7 @@ skaffold/build: .PHONY
 
 update-versions: updatebot/push updatebot/update-loop
 
-updatebot/push: .PHONY
+updatebot/push: .PHONY 
 	@echo doing updatebot push $(RELEASE_VERSION)
 	updatebot push --ref $(RELEASE_VERSION)
 

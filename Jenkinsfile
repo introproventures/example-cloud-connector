@@ -144,7 +144,7 @@ spec:
 	          sh "make changelog"
             
               // promote through all 'Auto' promotion Environments
-              sh "make promote"
+              sh "make helm/promote"
             }
           }
         }

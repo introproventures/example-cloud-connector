@@ -133,7 +133,7 @@ preview:
 	${MAKE_HELM} helm/preview
 
 promote:
-	${MAKE_HELM} helm/promote
+	${MAKE_HELM} promote
 			
 release: version install tag deploy changelog  
 
